@@ -1,4 +1,5 @@
 ﻿using Library.Models.Contracts.Services;
+using Library.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.Controllers
@@ -18,8 +19,35 @@ namespace Library.Controllers
 
         public IActionResult List()
         {
-            var books = _bookService.List();
-            return View(books);
+            try
+            {
+                var books = _bookService.List();
+                return View(books);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create([Bind("Name", "Author", "Publisher")] BookDTO book)
+        {
+            try
+            {
+                _bookService.Add(book);
+                return RedirectToAction("List");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

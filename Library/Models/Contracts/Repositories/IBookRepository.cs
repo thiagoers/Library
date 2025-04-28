@@ -5,5 +5,6 @@ namespace Library.Models.Contracts.Repositories
     public interface IBookRepository
     {
         List<BookDTO> List();
+        void Add(BookDTO book);
     }
 }

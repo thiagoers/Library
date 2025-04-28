@@ -13,6 +13,11 @@ namespace Library.Models.Services
             _bookRepository = bookRepository;
         }
 
+        public void Add(BookDTO book)
+        {
+            _bookRepository.Add(book);
+        }
+
         public List<BookDTO> List()
         {
             return _bookRepository.List();
