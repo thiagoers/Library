@@ -22,5 +22,15 @@ namespace Library.Models.Services
         {
             return _bookRepository.List();
         }
+
+        public BookDTO SearchById(string id)
+        {
+            return _bookRepository.SearchById(id);
+        }
+
+        public void UpdateBook(BookDTO book)
+        {
+            _bookRepository.UpdateBook(book);
+        }
     }
 }
