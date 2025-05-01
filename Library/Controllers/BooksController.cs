@@ -85,7 +85,7 @@ namespace Library.Controllers
             }
         }
 
-        public IActionResult Detais(string? id)
+        public IActionResult Details(string? id)
         {
             try
             {
@@ -101,6 +101,44 @@ namespace Library.Controllers
             catch (Exception ex)
             {
                 throw ex;
+            }
+        }
+
+        public IActionResult Delete(string? id)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(id))
+                    return NotFound();
+                
+                var book = _bookService.SearchById(id);
+                if (book == null)
+                    return NotFound();
+
+                return View(book);  
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete([Bind("Id", "Name", "Author", "Publisher")] BookDTO book)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(book.Id))
+                    return NotFound();
+
+                _bookService.Delete(book);
+                return RedirectToAction("List");
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
     }

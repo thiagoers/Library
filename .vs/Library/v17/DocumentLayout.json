@@ -5,34 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\models\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\models\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\models\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\models\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\views\\books\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\views\\books\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\models\\entities\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\models\\entities\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\models\\entities\\contextdatafake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\models\\entities\\contextdatafake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|c:\\users\\thiago\\source\\repos\\library\\library\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CC3ACB2C-B78B-4643-A577-3EDF2F4B074B}|Library\\Library.csproj|solutionrelative:library\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,96 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Views\\Books\\List.cshtml",
-              "RelativeDocumentMoniker": "Library\\Views\\Books\\List.cshtml",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Views\\Books\\List.cshtml",
-              "RelativeToolTip": "Library\\Views\\Books\\List.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T00:02:03.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Views\\Books\\Details.cshtml",
-              "RelativeDocumentMoniker": "Library\\Views\\Books\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Views\\Books\\Details.cshtml",
-              "RelativeToolTip": "Library\\Views\\Books\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T23:57:24.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Entities\\BookDTO.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\Entities\\BookDTO.cs",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Entities\\BookDTO.cs",
-              "RelativeToolTip": "Library\\Models\\Entities\\BookDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:31:08.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContextDataFake.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Entities\\ContextDataFake.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\Entities\\ContextDataFake.cs",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Entities\\ContextDataFake.cs",
-              "RelativeToolTip": "Library\\Models\\Entities\\ContextDataFake.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T01:12:25.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Services\\BookService.cs",
-              "RelativeToolTip": "Library\\Models\\Services\\BookService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:46:01.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "Library\\Models\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Models\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "Library\\Models\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:45:16.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Views\\Books\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Library\\Views\\Books\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Views\\Books\\Edit.cshtml",
-              "RelativeToolTip": "Library\\Views\\Books\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T17:16:04.645Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -140,9 +24,9 @@
               "RelativeDocumentMoniker": "Library\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Library\\Library\\Controllers\\BooksController.cs",
               "RelativeToolTip": "Library\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwFcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T00:32:09.133Z",
+              "WhenOpened": "2025-05-01T00:09:32.424Z",
               "EditorCaption": ""
             }
           ]

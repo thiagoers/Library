@@ -18,6 +18,11 @@ namespace Library.Models.Services
             _bookRepository.Add(book);
         }
 
+        public void Delete(BookDTO book)
+        {
+            _bookRepository.Delete(book);
+        }
+
         public List<BookDTO> List()
         {
             return _bookRepository.List();

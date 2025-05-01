@@ -11,6 +11,12 @@ namespace Library.Models.Repositories
             ContextDataFake.List.Add(book);
         }
 
+        public void Delete(BookDTO book)
+        {
+            var objBook = ContextDataFake.List.FirstOrDefault(x => x.Id == book.Id);
+            ContextDataFake.List.Remove(objBook);
+        }
+
         public List<BookDTO> List()
         {
             var books = ContextDataFake.List.OrderBy(x => x.Name).ToList();

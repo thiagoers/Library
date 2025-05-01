@@ -8,5 +8,6 @@ namespace Library.Models.Contracts.Repositories
         void Add(BookDTO book);
         BookDTO SearchById(string id);
         void UpdateBook(BookDTO book);
+        void Delete(BookDTO book);
     }
 }
