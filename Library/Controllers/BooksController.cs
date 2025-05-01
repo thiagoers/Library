@@ -84,5 +84,24 @@ namespace Library.Controllers
                 throw ex;
             }
         }
+
+        public IActionResult Detais(string? id)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(id))
+                    return NotFound();
+
+                var book = _bookService.SearchById(id);
+                if (book == null)
+                    return NotFound();
+
+                return View(book);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
